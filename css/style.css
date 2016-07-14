@@ -1,0 +1,52 @@
+@import 'https://fonts.googleapis.com/css?family=Arbutus+Slab';
+#logo {
+  width: 50%;
+}
+
+#nav {
+    font-family: Arbutus Slab;
+    font-size: 1.2em;
+}
+
+.nav-fixed {
+  position: fixed;
+  background-color: #012448;
+  top: 0;
+}
+
+.nav-fixed a {
+  color: #FFFFFF;
+}
+
+#about {
+  text-align: center;
+}
+
+#about h1 {
+    font-family: Arbutus Slab;
+}
+
+#about img {
+    height: 350px;
+}
+
+#work {
+  text-align: center;
+}
+
+#work a {
+  font-size: 1.8em;
+}
+
+#work img {
+  max-height: 200px;
+}
+
+#contact {
+  text-align: center;
+}
+
+
+a {
+    font-family: Arbutus Slab;
+}
