@@ -1,6 +1,18 @@
 @import 'https://fonts.googleapis.com/css?family=Arbutus+Slab';
+@import 'https://fonts.googleapis.com/css?family=Open+Sans';
+
+html *{
+    font-family: Open Sans;
+}
+
+h1, h2 {
+    font-family: Arbutus Slab;
+}
+
 #logo {
-  width: 50%;
+    width: 50%;
+    margin-top: -15px;
+    margin-bottom: -15px;
 }
 
 #nav {
@@ -19,7 +31,7 @@
 }
 
 #about {
-  text-align: center;
+    text-align: center;
 }
 
 #about h1 {
@@ -34,6 +46,17 @@
   text-align: center;
 }
 
+#work h2 {
+    text-align: left;
+    font-family: Arbutus Slab;
+    text-decoration: underline;
+}
+
+#work p {
+    text-align: left;
+    font-size: 1.2em;
+}
+
 #work a {
   font-size: 1.8em;
 }
@@ -43,7 +66,7 @@
 }
 
 #contact {
-  text-align: center;
+    text-align: center;
 }
 
 
