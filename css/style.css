@@ -42,6 +42,20 @@ h1, h2 {
     height: 350px;
 }
 
+#resume {
+    font-size: 2em;
+}
+
+#resume button {
+    border: 3px solid #012448;
+    background-color: #ffffff;
+    color: #012448;
+}
+
+#resume button a {
+    color: #012448;
+}
+
 #work {
   text-align: center;
 }
