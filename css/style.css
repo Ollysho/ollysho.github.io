@@ -9,6 +9,10 @@ h1, h2 {
     font-family: Arbutus Slab;
 }
 
+a {
+    font-family: Arbutus Slab;
+}
+
 #logo {
     width: 50%;
     margin-top: -15px;
@@ -21,13 +25,14 @@ h1, h2 {
 }
 
 .nav-fixed {
-  position: fixed;
-  background-color: #012448;
-  top: 0;
+    position: fixed;
+    background-color: #012448;
+    top: 0;
+    z-index: 100;
 }
 
 .nav-fixed a {
-  color: #FFFFFF;
+    color: #FFFFFF;
 }
 
 #about {
@@ -83,7 +88,54 @@ h1, h2 {
     text-align: center;
 }
 
+/*For Projects Sub Panel*/
 
-a {
-    font-family: Arbutus Slab;
+#projects {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 2em;
+} 
+
+#projects h3 {
+    text-align: center;
+}
+
+#projects a {
+    background-color: red;
+    -webkit-transition: background-color 2s ease-out;
+    -moz-transition: background-color 2s ease-out;
+    -o-transition: background-color 2s ease-out;
+    transition: background-color 2s ease-out;
+}
+
+#projects a:hover {
+    background-color: grey;
+}
+
+#pBack {
+    float: left;
+    width: 50px;
+    cursor: pointer;
+}
+
+#pLogo {
+    width: 30%;
+    margin-bottom: -20px;
+}
+
+.pBreak {
+    background-color: #012448;
+    border-radius: 5px;
+    height: 3px;
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.project-img {
+    width: 500px;
+}
+
+.swatch {
+    height: 300px;
 }

@@ -2,10 +2,36 @@
     #logo {
         margin-top: -10px;
     }
+    
 }
 
 @media only screen and (max-width:500px) {
     #logo {
         margin-top: 0px;
     }
+    
+    #projects {
+        font-size: 1.3em;
+    }
+    
+    #pLogo {
+        width: 50%;
+        margin-top: -5px;
+        margin-bottom: -20px;
+    }
+    
+    #pBack {
+        width: 35px;
+        margin-bottom: 10px; 
+    }
+    
+    .nav-fixed {
+        display: none;
+    }
+    
+    .project-img {
+        width: 100%;
+    }
+    
+    
 }
