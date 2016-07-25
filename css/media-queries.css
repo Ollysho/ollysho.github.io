@@ -1,23 +1,18 @@
 @media only screen and (max-width:900px) {
     #logo {
-        margin-top: -10px;
+        margin-top: 2px;;
     }
     
 }
 
 @media only screen and (max-width:500px) {
-    #logo {
-        margin-top: 0px;
-    }
-    
     #projects {
         font-size: 1.3em;
     }
     
     #pLogo {
         width: 50%;
-        margin-top: -5px;
-        margin-bottom: -20px;
+        margin-bottom: -15px;
     }
     
     #pBack {
