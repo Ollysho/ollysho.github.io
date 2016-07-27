@@ -99,16 +99,16 @@ a {
     text-align: center;
 }
 
-#projects a {
-    background-color: red;
-    -webkit-transition: background-color 2s ease-out;
-    -moz-transition: background-color 2s ease-out;
-    -o-transition: background-color 2s ease-out;
-    transition: background-color 2s ease-out;
+.projects {
+    padding-top: 10px;
+    -webkit-transition: background-color 0.3s ease-out;
+    -moz-transition: background-color 0.3s ease-out;
+    -o-transition: background-color 0.3s ease-out;
+    transition: background-color 0.3s ease-out;
 }
 
-#projects a:hover {
-    background-color: grey;
+.projects:hover {
+    background-color: #AAB3B6;
 }
 
 #pBack {
