@@ -3,9 +3,29 @@
         margin-top: 2px;;
     }
     
+    #about p {
+        width: 95%;
+    }
+    
+    #contact h2 {
+        width: 95%;
+    }
+    
+    video {
+        width: 80%;
+    }
 }
 
 @media only screen and (max-width:500px) {
+    #nav {
+        margin: 0;
+    }
+    
+    #nav a{
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    
     #projects {
         font-size: 1.3em;
     }
@@ -28,5 +48,8 @@
         width: 100%;
     }
     
+    embed {
+        width: 95%;
+    }
     
 }

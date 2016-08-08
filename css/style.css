@@ -14,19 +14,39 @@ a {
 }
 
 #logo {
-    width: 50%;
+    width: 40%;
     margin-top: 5px;
 }
 
 #nav {
+    margin-top: 5px;
+    margin-bottom: 0;
+    padding: 0;
     font-family: Arbutus Slab;
     font-size: 1.2em;
+    list-style: none;
+}
+
+#nav li {
+    display: inline-block;
+    transition: all 0.3s;
+}
+
+#nav a {
+    display: block;
+    padding: 10px;
+    transition: all 0.3s;
+}
+
+#nav a:hover {
+    color: #FFFFFF;
+    background-color: #436380;
 }
 
 .nav-fixed {
     position: fixed;
     background-color: #012448;
-    top: 0;
+    top: -5px;
     z-index: 100;
 }
 
@@ -34,16 +54,31 @@ a {
     color: #FFFFFF;
 }
 
+.nav-fixed a:hover {
+    background-color: #FFFFFF;
+}
+
 #about {
     text-align: center;
+    background-color: #436380;
+    padding-top: 0;
 }
 
 #about h1 {
     font-family: Arbutus Slab;
+    background-color: #fff;
+    display: inline-block;
+    padding: 10px;
 }
 
 #about img {
     height: 350px;
+}
+
+#about p {
+    background-color: #fff;
+    display: inline-block;
+    padding: 10px;
 }
 
 #resume {
@@ -84,7 +119,14 @@ a {
 }
 
 #contact {
+    background-color: #436380;
     text-align: center;
+}
+
+#contact h2 {
+    background-color: #fff;
+    display: inline-block;
+    padding: 10px;
 }
 
 /*For Projects Sub Panel*/
@@ -92,23 +134,28 @@ a {
 #projects {
     margin-top: 10px;
     text-align: center;
-    font-size: 2em;
+    font-size: 1.5em;
 } 
+
+#projects h1, #projects h2 {
+    font-family: Arbutus Slab;
+    text-decoration: underline;
+}
 
 #projects h3 {
     text-align: center;
+    display: inline-block;
+    padding: 10px;
+    background-color: #FFFFFF;
 }
 
 .projects {
     padding-top: 10px;
-    -webkit-transition: background-color 0.3s ease-out;
-    -moz-transition: background-color 0.3s ease-out;
-    -o-transition: background-color 0.3s ease-out;
-    transition: background-color 0.3s ease-out;
+    transition: all 0.3s;
 }
 
 .projects:hover {
-    background-color: #AAB3B6;
+    background-color: #436380;
 }
 
 #pBack {
@@ -132,9 +179,14 @@ a {
 }
 
 .project-img {
-    width: 500px;
+    max-width: 500px;
 }
 
 .swatch {
     height: 300px;
+}
+
+embed {
+    width: 80%;
+    height: 800px;
 }
