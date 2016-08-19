@@ -21,7 +21,4 @@ $(document).ready(function() {
         }
     });
     
-    if ( $(window).width() > 500) {
-        nav.css('display', 'inline');
-    }
 });
