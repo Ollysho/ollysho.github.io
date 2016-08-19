@@ -1,6 +1,7 @@
 @media only screen and (max-width:900px) {
-    #logo {
-        margin-top: 2px;;
+    #name {
+        margin-top: 0px;
+        font-size: 4em;
     }
     
     #about p {
