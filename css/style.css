@@ -21,6 +21,12 @@ a {
     margin-bottom: 0;
 }
 
+#menu-btn {
+    text-align: center;
+    cursor: pointer;
+    display: none;
+}
+
 #nav {
     margin-top: 5px;
     margin-bottom: 0;
