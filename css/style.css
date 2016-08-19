@@ -172,9 +172,15 @@ a {
     cursor: pointer;
 }
 
-#pLogo {
-    width: 30%;
-    margin-bottom: -20px;
+#pname {
+    text-align: center;
+    font-size: 4em;
+    font-family: Reem Kufi;
+    transition: all 1s;
+}
+
+#pname:hover {
+    color: #ED00FF;
 }
 
 .pBreak {
