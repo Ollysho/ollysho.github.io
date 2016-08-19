@@ -14,7 +14,7 @@ a {
 }
 
 #name {
-    font-size: 5em;
+    font-size: 5.5em;
     color: #284B63;
     text-align: center;
     margin-top: 2px;
@@ -70,6 +70,7 @@ a {
 
 #about h1 {
     font-family: Arbutus Slab;
+    font-size: 3em;
     background-color: #fff;
     border-radius: 2px;
     display: inline-block;
